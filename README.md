@@ -38,7 +38,7 @@ The projects collected here range from bare-metal firmware designed to make vint
 >**[Floppyti - A MIDI Floppy-Drive Music Player](https://github.com/gom9000/floppyti)**<br/>
 >**Type**: MIDI Audio Module | **Status**: Completed
 >
->A hardware-based MIDI instrument that converts MIDI-IN messages into musical notes by controlling the stepper motor of a standard floppy disk drive. The system features a bare-metal implementation on a PIC 16F628 microcontroller and custom hardware designed to interface the MIDI protocol and the drive's mechanical controller.
+>A hardware-based MIDI instrument that converts MIDI-IN messages into musical notes by controlling the stepper motor of a standard floppy disk drive. The system features a bare-metal implementation on a PIC 16F628A microcontroller and custom hardware designed to interface the MIDI protocol and the drive's stepper control interface.
 
 >**[The Bank Side of The Genesis](https://github.com/gom9000/the-banks-side-of-the-genesis)**<br/>
 >**Type**: Music Sheet | **Status**: Ongoing
