@@ -10,12 +10,12 @@ The projects collected here range from bare-metal firmware designed to make vint
 <br/><img src="resources/banner-box.svg" width="100%" alt="BOX Banner">
 
 >**[MusicalBOX](https://github.com/gom9000/MusicalBOX)**<br/>
->**Type**: Sampler Player | **Status**: Completed
+>**Type**: MIDI Sampler Player | **Status**: Completed
 >
 >An audio sample player based on Raspberry Pi. It allows the selection of up to 16 presets via a 2x8 switch matrix and features software-based audio routing to two independent output lines.
 
 >**[MusicalBOX - rev2](https://github.com/gom9000/MusicalBOXrev2)**<br/>
->**Type**: Sampler Player | **Status**: Development
+>**Type**: MIDI Sampler Player | **Status**: Development
 >
 >An evolution of the original sampler, now featuring support for stereo samples (.wav files). It introduces bank management through short and long switch presses and a hardware routing logic for dual stereo output lines.
 
@@ -36,9 +36,9 @@ The projects collected here range from bare-metal firmware designed to make vint
 <br/><img src="resources/banner-standalone.svg" width="100%" alt="Standalone Banner">
 
 >**[Floppyti - A MIDI Floppy-Drive Music Player](https://github.com/gom9000/floppyti)**<br/>
->**Type**: Expander Audio | **Status**: Completed
+>**Type**: MIDI Audio Module | **Status**: Completed
 >
->A hardware-based music player that converts MIDI-IN messages into musical notes by controlling the stepper motor movements of a standard floppy disk drive. The system features a bare-metal implementation on a PIC 16F6x8 microcontroller and custom hardware designed to interface the MIDI protocol directly with the drive's mechanical controller.
+>A hardware-based MIDI instrument that converts MIDI-IN messages into musical notes by controlling the stepper motor of a standard floppy disk drive. The system features a bare-metal implementation on a PIC 16F628 microcontroller and custom hardware designed to interface the MIDI protocol and the drive's mechanical controller.
 
 >**[The Bank Side of The Genesis](https://github.com/gom9000/the-banks-side-of-the-genesis)**<br/>
 >**Type**: Music Sheet | **Status**: Ongoing
